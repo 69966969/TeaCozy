@@ -1,0 +1,227 @@
+html {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+body {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+header { 
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-content: flex-start;
+    padding: 10px;
+    height: 50px;
+    /* border: 1px gold solid; */
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px gold solid; */
+
+}
+
+.container .breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none; 
+    /* border: 1px gold solid; */
+
+}
+
+.breadcrumbs a {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    /* border: 1px gold solid; */
+
+}
+
+.box {
+    position: relative;
+    top: 69px;
+    margin: 0px 50px 0px 50px;
+    padding: 500px 0px;
+    /* border: 1px gold solid; */
+    background: url("../../images/img-mission-background.jpg") no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    /* border: 1px gold solid; */
+}
+
+.box2 h2
+ {
+    font-size: 1.7em;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    /* border: 1px gold solid; */
+
+}
+
+.box2 h4 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* border: 1px gold solid; */
+
+}
+
+.box3 {
+    position: relative;
+    top: 69px;
+    margin: 0px 50px 0px 50px;
+    /* border: 1px gold solid; */
+    z-index: -1;
+}
+
+.box5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    left: 0px;
+    right: 0px;
+    /* border: 1px gold solid; */
+}
+
+.box5 h2
+ {
+    font-size: 1.7em;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    /* border: 1px gold solid; */
+
+}
+
+.box5 h4 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* border: 1px gold solid; */
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px 0px;
+  }
+
+
+.box6 {
+    /* border: 1px gold solid; */
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.box7 {
+    /* border: 1px gold solid; */
+    text-align: center;
+    
+}
+
+.box7 h4 {
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* border: 1px gold solid; */
+
+}
+
+.box8 {
+    position: relative;
+    top: 69px;
+    margin: 10px 50px;
+    padding: 100px 0 400px 0;
+    background: url("../../images/img-locations-background.jpg") no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    /* border: 1px gold solid; */
+}
+
+.box9 h2 {
+    text-align: center;
+    /* border: 1px gold solid; */
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-size: 1.7em;
+}
+
+.box10 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    /* font-size: 1em; */
+    padding: 20px 20px;
+    opacity: 0.8;
+    /* border: 1px gold solid; */
+
+}
+
+.box10 h3 {
+font-size: 1.4em;
+}
+
+.box10 h4 {
+    line-height: 2;
+}
+
+.box1010 {
+    display: flex;
+    justify-content: center;
+}
+
+.box10 {
+    margin: 10px 40px;
+}
+
+.box11 {
+    text-align: center;
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+footer h5 {
+    padding-left: 10px;
+}
+
+.location a {
+    color: white;
+    cursor: pointer;
+}
+
+.location a:hover {
+    color: gold;
+}
+
+.location a:active {
+    font-size: 1.01em;
+}
